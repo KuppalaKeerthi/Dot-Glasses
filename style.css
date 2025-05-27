@@ -1,0 +1,140 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Georgia', serif;
+  background-color: #0e0e0c;
+  color: #f5f0e6;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #0e0e0c;
+  position: sticky;
+  top: 0;
+}
+.logo {
+  font-size: 1.6em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.nav-links a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #f5f0e6;
+  font-weight: 500;
+  font-size: 0.95em;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  background: #0e0e0c;
+}
+.hero-text {
+  max-width: 500px;
+  margin-right: 40px;
+}
+.hero-text h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #dcd4c3;
+}
+.hero-image img {
+  max-width: 1000px;
+  width: 120%;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #e7dcc5;
+  color: #0e0e0c;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #cbbfa5;
+}
+
+/* About Section */
+.about {
+  padding: 60px 20px;
+  text-align: center;
+}
+.about h2 {
+  font-size: 2.4rem;
+  margin-bottom: 15px;
+}
+.about p {
+  font-size: 1.1rem;
+  color: #dcd4c3;
+  margin-bottom: 20px;
+}
+
+/* Featured Section */
+.featured {
+  padding: 60px 20px;
+  text-align: center;
+}
+.featured h2 {
+  font-size: 2.4rem;
+  margin-bottom: 30px;
+}
+.product-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.product-gallery img {
+  width: 200px;
+  height: auto;
+  background: #e7dcc5;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+/* Why Choose Us */
+.choose-us {
+  padding: 60px 20px;
+  text-align: center;
+}
+.choose-us h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+.choose-us ul {
+  list-style: none;
+  font-size: 1.1rem;
+  color: #dcd4c3;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #0e0e0c;
+  font-size: 0.9rem;
+  color: #888;
+}
